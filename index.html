@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luova Kampaamo | Kampaamo Vaasa</title>
+  <meta name="description" content="Luova Kampaamo Vaasassa – leikkaukset, värjäykset ja hiustenhoito Teirinkadulla. Varaa aika puhelimitse tai Instagramin kautta. Ma–pe 9–17." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Luova Kampaamo | Kampaamo Vaasa" />
+  <meta property="og:description" content="Hiustenleikkaukset, värjäykset ja hiustenhoito Vaasassa. Teirinkatu 6. Ma–pe 9–17." />
+  <meta property="og:image" content="https://i.ibb.co/Q7ytVSFp/female-client-getting-her-hair-cut-hairdresser-23-2150771230-4.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fi_FI" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Luova Kampaamo",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Teirinkatu 6",
+      "postalCode": "65350",
+      "addressLocality": "Vaasa",
+      "addressCountry": "FI"
+    },
+    "telephone": "+358400450902",
+    "email": "gabriel.mansnerus@gmail.com",
+    "openingHours": "Mo-Fr 09:00-17:00",
+    "sameAs": ["https://www.instagram.com/kampaamosilkline/"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGAATIO -->
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Päänavigaatio">
+      <a href="#" class="nav-logo" aria-label="Luova Kampaamo – etusivu">
+        Luova Kampaamo
+      </a>
+
+      <button class="hamburger" aria-label="Avaa valikko" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#palvelut" class="nav-link">Palvelut</a></li>
+        <li><a href="#hinnasto" class="nav-link">Hinnasto</a></li>
+        <li><a href="#meista" class="nav-link">Meistä</a></li>
+        <li><a href="#tuotteet" class="nav-link">Tuotteet</a></li>
+        <li>
+          <a href="#yhteystiedot" class="nav-cta" aria-label="Varaa aika kampaamosta">
+            Varaa aika
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Etusivu hero">
+      <div class="hero-bg">
+        <img
+          src="https://i.ibb.co/Q7ytVSFp/female-client-getting-her-hair-cut-hairdresser-23-2150771230-4.jpg"
+          alt="Kampaaja leikkaa asiakkaan hiuksia Luovassa Kampaamossa"
+          class="hero-img"
+          fetchpriority="high"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Teirinkatu 6, Vaasa</p>
+        <h1 class="hero-title">Hiukset, jotka<br />sopivat <em>sinulle</em></h1>
+        <p class="hero-lead">
+          Leikkaukset, värjäykset ja hoitohoidot – kaikki saman katon alla<br class="hide-mobile" /> Vaasan sydämessä. Ajanvaraus suoraan puhelimitse.
+        </p>
+        <div class="hero-actions">
+          <a href="tel:0400450902" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            040 0450902
+          </a>
+          <a href="#yhteystiedot" class="btn btn-secondary">Lähetä viesti</a>
+        </div>
+        <p class="hero-hours">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Ma–pe 9–17
+        </p>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- LUOTTAMUSPALKKI -->
+    <section class="trust-bar" aria-label="Lyhyesti meistä">
+      <div class="container trust-bar-inner">
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true">✂</span>
+          <span>Leikkaus n. 45 min</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true">🎨</span>
+          <span>Värikäsittelyt samana päivänä</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true">📍</span>
+          <span>Vaasa, Teirinkatu 6</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true">📸</span>
+          <a href="https://www.instagram.com/kampaamosilkline/" target="_blank" rel="noopener noreferrer" class="trust-link">@kampaamosilkline</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PALVELUT -->
+    <section class="section" id="palvelut" aria-labelledby="palvelut-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="palvelut-heading">Mitä teemme</h2>
+          <p class="section-sub">Tavallisesta arjesta juhlakuntoon – tässä ovat yleisimmät käynnit</p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card" aria-label="Leikkaukset">
+            <div class="service-card-img-wrap">
+              <img
+                src="https://i.ibb.co/rRS1DYf3/lataus.jpg"
+                alt="Kampaajapalvelu – harjaus ja viimeistely"
+                class="service-card-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card-body">
+              <h3>Leikkaukset</h3>
+              <p>Naisten ja miesten hiustenleikkaukset. Kerromme ensin mikä lopputulos on realistinen juuri sinun hiuksillesi – sitten tartumme saksiin.</p>
+              <ul class="service-list" aria-label="Leikkauspalvelut">
+                <li>Naisten leikkaus + viimeistely</li>
+                <li>Miesten leikkaus</li>
+                <li>Lastenleikkaus (alle 12 v.)</li>
+                <li>Otsatukan siistiminen</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card" aria-label="Värjäykset">
+            <div class="service-card-img-wrap service-card-img-wrap--color">
+              <div class="service-color-blob" aria-hidden="true">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path fill="var(--accent-warm)" d="M44.7,-67.4C56.3,-58.1,62.5,-42.6,68.1,-27.2C73.7,-11.8,78.8,3.5,75.4,16.9C72,30.3,60.2,41.7,47.5,51.3C34.8,60.9,21.1,68.6,5.7,71.4C-9.7,74.2,-26.9,72,-40.7,63.5C-54.5,55,-65,40.2,-70.2,23.7C-75.4,7.2,-75.4,-11,-68.4,-25.6C-61.4,-40.2,-47.5,-51.2,-33,-59.2C-18.5,-67.2,-3.5,-72.2,11.4,-72.5C26.3,-72.8,33.1,-76.7,44.7,-67.4Z" transform="translate(100 100)" />
+                </svg>
+              </div>
+              <span class="service-color-label" aria-hidden="true">🎨</span>
+            </div>
+            <div class="service-card-body">
+              <h3>Värjäykset</h3>
+              <p>Kokovärjäys, raidat ja balayage. Värjäyskäynti kestää hiusten pituudesta riippuen 1,5–3 tuntia – kannattaa jättää koko iltapäivä kalenteriin.</p>
+              <ul class="service-list" aria-label="Värjäyspalvelut">
+                <li>Kokovärjäys</li>
+                <li>Raidat / foliovärjäys</li>
+                <li>Balayage & ombre</li>
+                <li>Värinpoisto</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card" aria-label="Hoidot ja muotoilu">
+            <div class="service-card-img-wrap">
+              <img
+                src="https://i.ibb.co/sdVCDH2C/aa327967-6282-4ab8-9b47-1e959f63a842-rw-600.jpg"
+                alt="Luova Kampaamon tunnelmallinen tila Vaasassa"
+                class="service-card-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card-body">
+              <h3>Hoidot & muotoilu</h3>
+              <p>Keratiinihoito, syväkosteutus tai juhlakampaus – sovitaan käynnin yhteydessä mikä sopii tilanteeseen.</p>
+              <ul class="service-list" aria-label="Hoito- ja muotoilupalvelut">
+                <li>Keratiinihoito</li>
+                <li>Syväkosteutushoito</li>
+                <li>Juhlakampaus</li>
+                <li>Permaus</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HINNASTO -->
+    <section class="section section--alt" id="hinnasto" aria-labelledby="hinnasto-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="hinnasto-heading">Hinnasto</h2>
+          <p class="section-sub">Pitkät ja runsaat hiukset voivat nostaa hintaa – tarkistetaan yhdessä varauksen yhteydessä</p>
+        </div>
+
+        <div class="pricing-grid">
+
+          <div class="pricing-block">
+            <h3 class="pricing-category">Leikkaukset</h3>
+            <ul class="pricing-list" role="list">
+              <li class="pricing-row">
+                <span>Naisten leikkaus + föönaus</span>
+                <span class="price">alkaen 45 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Miesten leikkaus</span>
+                <span class="price">alkaen 25 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Lastenleikkaus (alle 12 v.)</span>
+                <span class="price">alkaen 20 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Otsatukan siistiminen</span>
+                <span class="price">10 €</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pricing-block">
+            <h3 class="pricing-category">Värjäykset</h3>
+            <ul class="pricing-list" role="list">
+              <li class="pricing-row">
+                <span>Kokovärjäys (lyhyet)</span>
+                <span class="price">alkaen 65 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Kokovärjäys (pitkät)</span>
+                <span class="price">alkaen 85 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Raidat / foliovärjäys</span>
+                <span class="price">alkaen 75 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Balayage</span>
+                <span class="price">alkaen 110 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Värinpoisto</span>
+                <span class="price">alkaen 60 €</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pricing-block">
+            <h3 class="pricing-category">Hoidot & muotoilu</h3>
+            <ul class="pricing-list" role="list">
+              <li class="pricing-row">
+                <span>Keratiinihoito</span>
+                <span class="price">alkaen 90 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Syväkosteutushoito</span>
+                <span class="price">alkaen 30 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Juhlakampaus</span>
+                <span class="price">alkaen 55 €</span>
+              </li>
+              <li class="pricing-row">
+                <span>Permaus</span>
+                <span class="price">alkaen 80 €</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <p class="pricing-note">* Lopullinen hinta selviää käynnin alussa, kun katsomme hiustesi tilanteen yhdessä.</p>
+      </div>
+    </section>
+
+    <!-- MEISTÄ + TILAN KUVA -->
+    <section class="section" id="meista" aria-labelledby="meista-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-img-col">
+            <div class="about-img-frame">
+              <img
+                src="https://i.ibb.co/sdVCDH2C/aa327967-6282-4ab8-9b47-1e959f63a842-rw-600.jpg"
+                alt="Luova Kampaamon tunnelmallinen sisätila Vaasassa"
+                class="about-img"
+                loading="lazy"
+              />
+              <div class="about-img-deco" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="about-content">
+            <h2 class="section-title" id="meista-heading">Teirinkadun<br />kampaamo</h2>
+            <p>
+              Löydät meidät Vaasan Teirinkadulta – pienestä, tunnelmallisesta tilasta jossa ei tungosta. Jokaiselle asiakkaalle on aikaa puhua siitä, mitä hiuksille oikeasti haluaa.
+            </p>
+            <p>
+              Käytämme DS Laboratories -tuotesarjaa, joka on hajusteetonta ja dermatologisesti testattua. Hyvä valinta herkälle hiuspohjalle.
+            </p>
+            <div class="about-details">
+              <div class="about-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Teirinkatu 6, 65350 Vaasa</span>
+              </div>
+              <div class="about-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Ma–pe 9–17</span>
+              </div>
+              <div class="about-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                <a href="https://www.instagram.com/kampaamosilkline/" target="_blank" rel="noopener noreferrer" class="about-link">@kampaamosilkline</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TUOTTEET -->
+    <section class="section section--alt" id="tuotteet" aria-labelledby="tuotteet-heading">
+      <div class="container">
+        <div class="products-grid">
+          <div class="products-content">
+            <h2 class="section-title" id="tuotteet-heading">DS Laboratories – hajusteettomat hiustuotteet</h2>
+            <p>
+              Myymme kampaamossa DS:n hajusteetonta tuotesarjaa. Dry shampoo, styling lotion, vahva hiuslakka, värishampoot ja hoitoaineet – kaikki UV-suojauksella.
+            </p>
+            <p>
+              Erityisesti värikäsitellyille tai herkille hiuksille sopiva sarja, joka on valmistettu Suomessa.
+            </p>
+            <a href="#yhteystiedot" class="btn btn-primary" style="margin-top:1.5rem; display:inline-flex;">Kysy tuotteista</a>
+          </div>
+          <div class="products-img-col">
+            <img
+              src="https://i.ibb.co/spCn3kDz/31b2c2e2-f0e7-4870-b6ce-f4dfda1aabb0-rw-1920.jpg"
+              alt="DS Laboratories hajusteettomat hiustuotteet Luovassa Kampaamossa"
+              class="products-img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA-BANNERI -->
+    <section class="cta-banner" aria-label="Varaa aika">
+      <div class="container cta-banner-inner">
+        <div class="cta-banner-text">
+          <h2>Milloin sopii?</h2>
+          <p>Soita suoraan tai lähetä viesti – löydetään sinulle sopiva aika.</p>
+        </div>
+        <div class="cta-banner-actions">
+          <a href="tel:0400450902" class="btn btn-light">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            040 0450902
+          </a>
+          <a href="#yhteystiedot" class="btn btn-outline-light">Kirjoita viesti</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- YHTEYDENOTTO -->
+    <section class="section" id="yhteystiedot" aria-labelledby="yhteystiedot-heading">
+      <div class="container">
+        <div class="contact-grid">
+
+          <div class="contact-info">
+            <h2 class="section-title" id="yhteystiedot-heading">Ota yhteyttä</h2>
+            <p>Kirjoita viestiä tai soita – vastataan yleensä saman päivän aikana.</p>
+
+            <address class="contact-details">
+              <div class="contact-row">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Teirinkatu 6<br />65350 Vaasa</span>
+              </div>
+              <div class="contact-row">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:0400450902">040 0450902</a>
+              </div>
+              <div class="contact-row">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <a href="mailto:gabriel.mansnerus@gmail.com">gabriel.mansnerus@gmail.com</a>
+              </div>
+              <div class="contact-row">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Ma–pe 9–17</span>
+              </div>
+              <div class="contact-row">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                <a href="https://www.instagram.com/kampaamosilkline/" target="_blank" rel="noopener noreferrer">@kampaamosilkline</a>
+              </div>
+            </address>
+
+            <div class="contact-map" aria-label="Kartta">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1872.8!2d21.6165!3d63.0945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjPCsDA1JzQwLjIiTiAyMcKwMzYnNTkuNCJF!5e0!3m2!1sfi!2sfi!4v1699999999999!5m2!1sfi!2sfi"
+                width="100%"
+                height="220"
+                style="border:0; border-radius: 12px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Luova Kampaamo sijainti kartalla"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap">
+            <form
+              class="contact-form"
+              id="contact-form"
+              action="https://formspree.io/f/LOMAKE_ID"
+              method="POST"
+              novalidate
+              aria-label="Yhteydenottolomake"
+            >
+              <div class="form-group">
+                <label for="name">Nimi</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                  placeholder="Etunimi Sukunimi"
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Puhelinnumero</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    autocomplete="tel"
+                    placeholder="040 1234567"
+                    aria-label="Puhelinnumero"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email-input">Sähköposti</label>
+                  <input
+                    type="email"
+                    id="email-input"
+                    name="email"
+                    autocomplete="email"
+                    placeholder="sinä@esimerkki.fi"
+                    aria-label="Sähköpostiosoite"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="service">Palvelu (valinnainen)</label>
+                <select id="service" name="service" aria-label="Valitse palvelu">
+                  <option value="">Valitse palvelu...</option>
+                  <option value="leikkaus">Leikkaus</option>
+                  <option value="varjays">Värjäys / raidat</option>
+                  <option value="balayage">Balayage</option>
+                  <option value="hoito">Hiushoito</option>
+                  <option value="juhlakampaus">Juhlakampaus</option>
+                  <option value="muu">Muu / kysy ensin</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Viesti</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Kerro lyhyesti mitä toivot – esim. haluatko ajanvarauksen tai kysymyksen hinnasta"
+                  aria-label="Viestisi"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full" aria-label="Lähetä yhteydenotto">
+                Lähetä viesti
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+
+              <div class="form-notice" aria-live="polite" id="form-notice" role="status"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Luova Kampaamo</span>
+        <p>Teirinkatu 6, 65350 Vaasa</p>
+      </div>
+      <nav class="footer-nav" aria-label="Alatunnisteen navigaatio">
+        <a href="#palvelut">Palvelut</a>
+        <a href="#hinnasto">Hinnasto</a>
+        <a href="#meista">Meistä</a>
+        <a href="#yhteystiedot">Yhteystiedot</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/kampaamosilkline/" target="_blank" rel="noopener noreferrer" aria-label="Seuraa Instagramissa @kampaamosilkline">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Luova Kampaamo. Kaikki oikeudet pidätetään.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
